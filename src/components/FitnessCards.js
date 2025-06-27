@@ -1,14 +1,14 @@
 import { Image, Text, View, TouchableOpacity } from "react-native";
-// import fitness from "../data/fitness";
-// import { MaterialCommunityIcons } from "@expo/vector-icons";
-// import { useNavigation } from "@react-navigation/native";
+import fitness from "../data/fitness";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { useNavigation } from "@react-navigation/native";
 import { useContext } from "react";
 import { FitnessItems } from "../context/Context";
 import styles from "./styles";
 
 const FitnessCards = () => {
-  // const FitnessData = fitness;
-  // const navigation = useNavigation();
+  const FitnessData = fitness;
+  const navigation = useNavigation();
   const { darkMode } = useContext(FitnessItems);
 
   return (
@@ -18,7 +18,7 @@ const FitnessCards = () => {
         { backgroundColor: darkMode ? "#000000" : "#FFFFFF" },
       ]}
     >
-      {/* {FitnessData.map((item, id) => (
+      {FitnessData.map((item, id) => (
         <TouchableOpacity
           onPress={() =>
             navigation.navigate("Workout", {
@@ -43,7 +43,7 @@ const FitnessCards = () => {
             style={styles.icon}
           />
         </TouchableOpacity>
-      ))} */}
+      ))}
     </View>
   );
 };
