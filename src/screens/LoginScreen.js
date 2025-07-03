@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import { useState, useContext } from "react";
 import { View, Text, TextInput, TouchableOpacity, Image } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons";
@@ -7,8 +7,8 @@ import styles from "./Styles/LoginScreenStyles";
 
 const LoginScreen = () => {
   const { darkMode, setDarkMode } = useContext(FitnessItems);
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [username, setUsername] = useState("test123");
+  const [password, setPassword] = useState("Pass@12345");
   const navigation = useNavigation();
 
   const handleLogin = () => {

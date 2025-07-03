@@ -91,7 +91,7 @@ const WorkoutScreen = () => {
             name="whistle"
             size={24}
             color={darkMode ? "#FFD700" : "white"}
-          />{" "}
+          />
           START
         </Text>
       </TouchableOpacity>
