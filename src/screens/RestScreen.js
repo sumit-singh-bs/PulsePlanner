@@ -52,7 +52,7 @@ const RestScreen = () => {
           name="timer"
           size={26}
           color={darkMode ? "white" : "black"}
-        />{" "}
+        />
         {timeLeft}
       </Text>
     </SafeAreaView>

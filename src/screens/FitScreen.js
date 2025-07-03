@@ -64,7 +64,7 @@ const FitScreen = () => {
           setMinutes(minutes + 2.5);
           setCalories(calories + 6.3);
           if (index + 1 >= exercise.length) {
-            navigation.navigate("Home");
+            navigation.navigate("Home", { username: "Test Username" });
           } else {
             navigation.navigate("Rest");
             setIndex(index + 1); // Increment index immediately
@@ -108,7 +108,7 @@ const FitScreen = () => {
         <TouchableOpacity
           onPress={() => {
             if (index + 1 >= exercise.length) {
-              navigation.navigate("Home");
+              navigation.navigate("Home", { username: "Test Username" });
             } else {
               setIndex(index + 1); // Increment index immediately
               navigation.navigate("Rest");
@@ -126,7 +126,7 @@ const FitScreen = () => {
               name="play-skip-forward"
               size={22}
               color={darkMode ? "#bbbbbb" : "#3f3d3d"}
-            />{" "}
+            />
             SKIP
           </Text>
         </TouchableOpacity>

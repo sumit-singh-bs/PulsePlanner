@@ -16,36 +16,29 @@ export default exerciseList = [
         id: "b2",
         name: "Hammer Curl",
         image:
-          "https://intowellness.in/wp-content/uploads/2024/10/Into_Wellness_Hammer_Curl.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4wGoPncEVU2NYJYi_tVF_G5R6aqrxpLJZxw&s",
         sets: "12 X 3",
       },
       {
         id: "b3",
         name: "Concentration Curl",
         image:
-          "https://intowellness.in/wp-content/uploads/2024/10/Into_Wellness_Concentration_Curl.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd45EAZ_u6dtm7JtuJcdVpV4TsjBciT5BBqQ&s",
         sets: "10 X 3",
       },
       {
         id: "b4",
         name: "Cable Curl",
         image:
-          "https://intowellness.in/wp-content/uploads/2024/10/Into_Wellness_Cable_Curl.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1_eGZYiDGlAL5uAWsLFJomWWzwaDLxLCUEw&s",
         sets: "12 X 3",
       },
       {
         id: "b5",
         name: "Barbell Curl",
         image:
-          "https://intowellness.in/wp-content/uploads/2024/10/Into_Wellness_Barbell_Curl.jpg",
+          "https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2018/01/Barbell-Biceps-Curl-Bodybuilder-1109.jpg?quality=86&strip=all",
         sets: "10 X 4",
-      },
-      {
-        id: "b6",
-        name: "Zottman Curl",
-        image:
-          "https://intowellness.in/wp-content/uploads/2024/10/Into_Wellness_Zottman_Curl.jpg",
-        sets: "12 X 3",
       },
     ],
   },
