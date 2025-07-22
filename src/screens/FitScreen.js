@@ -75,9 +75,10 @@ const FitScreen = () => {
           { backgroundColor: darkMode ? "#1f6b3e" : "#198f51" },
         ]}
       >
-        <Text style={styles.buttonText}>
-          <Ionicons name="checkmark-circle" size={24} color="white" /> DONE
-        </Text>
+        <View style={styles.buttonContent}>
+          <Ionicons name="checkmark-circle" size={24} color="white" />
+          <Text style={styles.buttonText}> DONE</Text>
+        </View>
       </TouchableOpacity>
 
       {/* Previous and Skip Buttons */}
@@ -90,19 +91,22 @@ const FitScreen = () => {
           }}
           style={styles.navButton}
         >
-          <Text
-            style={[
-              styles.navButtonText,
-              { color: darkMode ? "#bbbbbb" : "#6d6868" },
-            ]}
-          >
+          <View style={styles.buttonContent}>
             <Ionicons
               name="play-skip-back"
               size={22}
               color={darkMode ? "#bbbbbb" : "#6d6868"}
-            />{" "}
-            PREV
-          </Text>
+            />
+            <Text
+              style={[
+                styles.navButtonText,
+                { color: darkMode ? "#bbbbbb" : "#6d6868" },
+              ]}
+            >
+              {" "}
+              PREV
+            </Text>
+          </View>
         </TouchableOpacity>
 
         <TouchableOpacity
@@ -116,19 +120,22 @@ const FitScreen = () => {
           }}
           style={styles.navButton}
         >
-          <Text
-            style={[
-              styles.navButtonText,
-              { color: darkMode ? "#bbbbbb" : "#3f3d3d" },
-            ]}
-          >
+          <View style={styles.buttonContent}>
             <Ionicons
               name="play-skip-forward"
               size={22}
               color={darkMode ? "#bbbbbb" : "#3f3d3d"}
             />
-            SKIP
-          </Text>
+            <Text
+              style={[
+                styles.navButtonText,
+                { color: darkMode ? "#bbbbbb" : "#2e2424ff" },
+              ]}
+            >
+              {" "}
+              SKIP
+            </Text>
+          </View>
         </TouchableOpacity>
       </View>
     </SafeAreaView>

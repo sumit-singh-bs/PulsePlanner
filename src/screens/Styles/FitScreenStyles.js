@@ -30,6 +30,10 @@ const styles = StyleSheet.create({
     padding: 10,
     width: "90%",
   },
+  buttonContent:{
+    flexDirection: 'row',
+    justifyContent:'center'
+  },
   buttonText: {
     color: "white",
     fontWeight: "bold",

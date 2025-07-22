@@ -46,48 +46,48 @@ export default exerciseList = [
     id: "02c7bd34-cd94-4c50-b0cf-92f4c1d6f7f0",
     name: "Chest",
     image:
-      "https://intowellness.in/wp-content/uploads/2024/10/Into_Wellness_Chest_Press.jpg",
+      "https://asitisnutrition.com/cdn/shop/articles/chest_1_c15e7ced-d533-4348-85dd-2a3a27b45440_800x800.jpg?v=1739791514",
     exercises: [
       {
         id: "c1",
         name: "Chest Press",
         image:
-          "https://intowellness.in/wp-content/uploads/2024/10/Into_Wellness_Chest_Press.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Dl5VwnnGnFJi_dtqGs4ssPT4Bxznc_J4TQ&s",
         sets: "10 X 4",
       },
       {
         id: "c2",
         name: "Incline Bench Press",
         image:
-          "https://intowellness.in/wp-content/uploads/2024/10/Into_Wellness_Incline_Press.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-XYQv1b-n1PS0Ug_rCoxZ1GQIT3MyUdD-uw&s",
         sets: "8 X 4",
       },
       {
         id: "c3",
         name: "Decline Bench Press",
         image:
-          "https://intowellness.in/wp-content/uploads/2024/10/Into_Wellness_Decline_Bench_Press.jpg",
+          "https://hips.hearstapps.com/hmg-prod/images/screen-shot-2022-08-16-at-11-46-14-am-1660667022.png?crop=0.566xw:1.00xh;0.101xw,0&resize=1200:*",
         sets: "8 X 4",
       },
       {
         id: "c4",
         name: "Dumbbell Flyes",
         image:
-          "https://intowellness.in/wp-content/uploads/2024/10/Into_Wellness_Dumbbell_Flyes.jpg",
+          "https://swolverine.com/cdn/shop/articles/Dumbbell_Chest_Fly_825bd98f-7e67-4b98-ba86-3db39e835290_600x600_crop_center.jpg?v=1739510458",
         sets: "12 X 3",
       },
       {
         id: "c5",
         name: "Pec Deck Machine",
         image:
-          "https://intowellness.in/wp-content/uploads/2024/10/Into_Wellness_Pec_Deck.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTll40AEgTvIhBlAadzMjX4XDvPlir9prGwzg&s",
         sets: "12 X 3",
       },
       {
         id: "c6",
         name: "Push-ups",
         image:
-          "https://intowellness.in/wp-content/uploads/2024/10/Into_Wellness_Push_Ups.jpg",
+          "https://images.medicinenet.com/images/article/main_image/what-are-push-ups-for.jpg?output-quality=75",
         sets: "15 X 3",
       },
     ],
